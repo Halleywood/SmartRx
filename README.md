@@ -24,13 +24,10 @@
 ###### Schedule
 [![Schedule & Timeline](images/timeline.jpg)](https://github.com/users/Jaypad07/projects/4/views/1?layout=board)
 
-#### User Stories
 ![image](images/BronzeUS.png)
 
-###### Silver User Stories
 ![image](images/SilverUS.png)
 
-###### Gold User Stories
 ![image](images/GoldUS.png)
 
 ## Test and Behavior Driven Development (TDD)
