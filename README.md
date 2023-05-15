@@ -48,7 +48,6 @@ Here's an overview of the TDD process followed in this project:
 
 
 ## Hurdles and Wins
-![image](images/image.png)
 - Merging Branches on Github
 - Issues with 'Prescription Data Loader' (seed) file
 - Setting up Security Token 
