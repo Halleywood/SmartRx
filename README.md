@@ -1,4 +1,3 @@
-# SmartRx
 ![image](images/smartRXlogoupdated.jpg)
 
 ## Project Description
