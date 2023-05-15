@@ -1,17 +1,14 @@
 # SmartRx
 ![image]()
 
-### Description
-SmartRx REST API backend is a Java and Spring Boot application that provides a robust and scalable solution for managing prescription and medication data. It serves as a reliable and efficient backend system to support various client applications such as web, mobile, or desktop applications.
+## Project Description
 
 
 ## Table of Contents
-*  ######   [Product Overview](#product-overview)
+* [Product Overview](#product-overview)
 * [Key Features](#key-product-features)
 * [General Approach](#general-approach)
 * [Planning Documentation](#planning-documentation)
-* [User Stories](#user-stories)
-* [ERD Diagram](#erd-diagram)
 * [Unsolved Problems & Hurdles Tackled](#unsolved-problems-and-hurdles-tackled)
 * [Testing (TDD Process)](#test-driven-development-tdd)
 * [Tools and Technologies](#tools-and-technologies)
@@ -22,49 +19,22 @@ SmartRx REST API backend is a Java and Spring Boot application that provides a r
 * [Credits](#credits)
 * [References](#references)
 
-## Product Overview
+## Project Overview
 
-### Planning Documentation
-#### Schedule
+#### Planning 
+###### Schedule
 [![Schedule & Timeline](images/timeline.jpg)](https://github.com/users/Jaypad07/projects/4/views/1?layout=board)
 
 #### User Stories
 ![image](images/BronzeUS.png)
 
-#### Silver User Stories
+###### Silver User Stories
 ![image](images/SilverUS.png)
 
-#### Gold User Stories
+###### Gold User Stories
 ![image](images/GoldUS.png)
 
-#### ERD Diagram
-[![image](images/ERD.png)](https://dbdiagram.io/d/64595cb6dca9fb07c4b87508)
-
-##### External Links to Planning Documents
-- [Link to Planning and Schedule]()
-- [Link to ERD DIAGRAM]()
-- [Link to User Stories]()
-
-#### Unsolved Problems and Hurdles Tackled
-![image](images/image.png)
-- Merging Branches on Github
-- Issues with 'Prescription Data Loader' (seed) file
-- Setting up Security Token 
-- Functionality Issues with 'createPrescription' Method'
-- We Failed Fast!!!
-
-#### Major Wins
-- Worked Collaboratively and Creatively
-- Reached MVP and Silver Status
-- Became Cucumber Champions
-- Mastered Many to Many Relationships
-- Mastered Many to Many Entity Relationships
-
-
-[![Major Wins](images/rq5w4UZjdp.png)](https://github.com/users/Jaypad07/projects/4/views/1?layout=board)
-###### Prescription Feature
-One of our major wins was successfully implementing the Prescription feature, which involved incorporating a many-to-many relationship. This achievement allowed us to efficiently manage and track prescriptions, ensuring accuracy and accessibility for both users and healthcare professionals. We are proud of this accomplishment as it significantly enhances the functionality and value of our product.
-## Test Driven Development (TDD)
+## Test and Behavior Driven Development (TDD)
 
 This project follows the Test Driven Development (TDD) approach to ensure the reliability and correctness of the codebase. TDD involves writing tests before implementing the actual code logic.
 
@@ -82,6 +52,24 @@ Here's an overview of the TDD process followed in this project:
 5. **Re-run Tests**: After refactoring the code, the tests are re-run to ensure that the changes have not introduced any regressions or unexpected behavior. This step verifies that the code still adheres to the desired functionality defined by the tests.![Test Successful](images/test_success.png)
 
 
+## Hurdles and Wins
+![image](images/image.png)
+- Merging Branches on Github
+- Issues with 'Prescription Data Loader' (seed) file
+- Setting up Security Token 
+- Functionality Issues with 'createPrescription' Method'
+- We Failed Fast!!!
+
+###### Major Wins
+- Worked Collaboratively and Creatively
+- Reached MVP and Silver Status
+- Became Cucumber Champions
+- Mastered Many to Many Relationships
+- Mastered Many to Many Entity Relationships
+
+###### Prescription Feature
+One of our major wins was successfully implementing the Prescription feature, which involved incorporating a many-to-many relationship. This achievement allowed us to efficiently manage and track prescriptions, ensuring accuracy and accessibility for both users and healthcare professionals. We are proud of this accomplishment as it significantly enhances the functionality and value of our product.
+
 ### Tools and Technologies
 - Java
 - Spring Boot
@@ -94,22 +82,17 @@ Here's an overview of the TDD process followed in this project:
 - Maven
 - IntelliJ IDEA
 
-
-### API Endpoints - User
-
-| Name        | API Endpoint             | HTTP Verb | Purpose                      |
-|-------------|--------------------------|-----------|------------------------------|
-| Create User | /api/auth/users/register | POST      | Create a new User            |
-| Login User  | /api/auth/users/login    | POST      | Logs in a User               | 
-| Show User   | /api/users               | GET       | Displays a User              |
-| Update User | /api/users               | PUT       | Updates a User               |
-| Delete User | /api/users               | DELETE    | Deletes a User from database |
-
-
-### API Endpoints - Pharmacist
+###### ERD Diagram
+[![image](images/ERD.png)](https://dbdiagram.io/d/64595cb6dca9fb07c4b87508)
+## API Endpoints
 
 | Name                      | API Endpoint                                             | HTTP Verb | Purpose                               |
 |---------------------------|----------------------------------------------------------|-----------|---------------------------------------|
+| Register as a User        | /api/auth/users/register                                 | POST      | A user can register                   |
+| Login a User              | /api/auth/users/login                                    | POST      | Login securely                        | 
+| Show User                 | /api/users                                               | GET       | Gets a specific user by Id            |
+| Update User               | /api/users                                               | PUT       | A user can update their information   |
+| Delete User               | /api/users                                               | DELETE    | A user can delete their account       |
 | List User's Prescriptions | /api/prescriptions                                       | GET       | Gets a list of a Users Prescriptions  |
 | Get all prescriptions     | /api/pharmacist/prescriptions                            | GET       | Gets all prescriptions                |
 | Get one medication        | /api/prescriptions/medications/{medicationId}            | GET       | Gets a specific medication by Id      |
