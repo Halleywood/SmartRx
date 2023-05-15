@@ -5,12 +5,11 @@
 
 
 ## Table of Contents
-* [Product Overview](#product-overview)
-* [Key Features](#key-product-features)
+* [Project Overview](#product-overview)
 * [General Approach](#general-approach)
 * [Planning Documentation](#planning-documentation)
-* [Unsolved Problems & Hurdles Tackled](#unsolved-problems-and-hurdles-tackled)
 * [Testing (TDD Process)](#test-driven-development-tdd)
+* [Hurdles and Wins](#unsolved-problems-and-hurdles-tackled)
 * [Tools and Technologies](#tools-and-technologies)
 * [API Endpoints](#api-endpoints---user)
 * [Usage](#usage)
