@@ -10,22 +10,17 @@ SmartRx REST API backend is a Java and Spring Boot application that provides a r
 * [Key Features](#key-product-features)
 * [General Approach](#general-approach)
 * [Planning Documentation](#planning-documentation)
-- [User Stories](#user-stories)
-- [ERD Diagram](#erd-diagram)
-- [Unsolved Problems & Hurdles Tackled](#unsolved-problems-and-hurdles-tackled)
-- [Testing (TDD Process)](#test-driven-development-tdd)
-- [Tools and Technologies](#tools-and-technologies)
-- [API Endpoints - User](#api-endpoints---user)
-- [API Endpoints - Pharmacist](#api-endpoints---pharmacist)
-- [Usage](#usage)
-- [Installation Instructions for Dependencies](#installation-instructions-for-dependencies-)
-- [How To Install and Run this Application on your own Machine](#how-to-install-and-run-this-application-on-your-own-machine)
-- [Contributing](#contributing-)
-- [Credits](#credits)
-- [References](#references)
-
-
-
+* [User Stories](#user-stories)
+* [ERD Diagram](#erd-diagram)
+* [Unsolved Problems & Hurdles Tackled](#unsolved-problems-and-hurdles-tackled)
+* [Testing (TDD Process)](#test-driven-development-tdd)
+* [Tools and Technologies](#tools-and-technologies)
+* [API Endpoints](#api-endpoints---user)
+* [Usage](#usage)
+* [Installation Instructions for Dependencies](#installation-instructions-for-dependencies-)
+* [How To Install and Run this Application on your own Machine](#how-to-install-and-run-this-application-on-your-own-machine)
+* [Credits](#credits)
+* [References](#references)
 
 ## Product Overview
 
