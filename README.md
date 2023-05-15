@@ -1,5 +1,5 @@
 # SmartRx
-![image]()
+![image](images/smartRXlogoupdated.jpg)
 
 ## Project Description
 
